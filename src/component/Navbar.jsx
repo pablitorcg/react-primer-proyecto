@@ -1,12 +1,12 @@
-import React from 'react'
+import React from 'react' ;
 
-function Navbar() {
+const Navbar = () => {
     return (
         <div>
             <nav class="navbar navbar-expand-lg navbar-light bg-light bg-white py-3 shadow-sm">
                 <div class="container">
                     <a class="navbar-brand fw-bold fs-4" href="#">
-                        LA COLLECTION
+                        <img className='img-fluid' width={90} src="/assets/logo.png" alt="" />
                     </a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
@@ -49,7 +49,7 @@ function Navbar() {
             </nav>
 
         </div>
-    )
-}
+    );
+};
 
-export default Navbar
+export default Navbar;
